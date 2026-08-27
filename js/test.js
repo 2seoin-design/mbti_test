@@ -65,7 +65,7 @@ function renderResult(result) {
   goBtn.href = info.page;
   goBtn.textContent = `${info.name} 공부법 보러가기`;
 
-  resultBox.dataset.shareText = `나의 MBTI 공부유형은 [${info.name}]! 너의 공부유형도 확인해봐 → test.html`;
+  resultBox.dataset.shareText = `나의 MBTI 공부유형은 [${info.name}]! 너의 공부유형도 확인해봐 → https://mbti-test-seven-pied.vercel.app/test.html`;
 
   resultBox.classList.add("show");
   resultBox.scrollIntoView({ behavior: "smooth", block: "start" });
