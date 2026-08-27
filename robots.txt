@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mbti-test-seven-pied.vercel.app/sitemap.xml
