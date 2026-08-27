@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>공부 습관 자가진단 | MBTI 공부법 연구소</title>
+  <meta name="description" content="10문항으로 알아보는 나의 MBTI 공부유형 자가진단 테스트입니다." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">MBTI 공부법 연구소</a>
+      <nav class="main-nav">
+        <a href="nt.html">NT</a>
+        <a href="nf.html">NF</a>
+        <a href="sj.html">SJ</a>
+        <a href="sp.html">SP</a>
+        <a href="test.html" class="nav-cta" aria-current="page">내 공부유형 찾기</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>공부 습관 자가진단</h1>
+      <p>10개의 질문에 가장 가깝다고 느끼는 답을 골라보세요. 끝까지 답하면 나의 공부유형을 알려드려요.</p>
+    </section>
+
+    <section class="container">
+      <form id="test-form">
+        <div class="question">
+          <p class="q-title">1. 새로운 개념을 배울 때 나는?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q1" value="nt" required /> 원리와 이유부터 파고든다</label>
+            <label class="option"><input type="radio" name="q1" value="nf" /> 나와 어떤 의미가 있는지부터 생각한다</label>
+            <label class="option"><input type="radio" name="q1" value="sj" /> 정해진 순서대로 차근차근 익힌다</label>
+            <label class="option"><input type="radio" name="q1" value="sp" /> 일단 문제부터 풀어보며 감을 잡는다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">2. 시험 공부 계획을 세울 때?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q2" value="nt" required /> 최종 목표를 정하고 역산해서 짠다</label>
+            <label class="option"><input type="radio" name="q2" value="nf" /> 함께 할 사람이 있으면 더 힘이 난다</label>
+            <label class="option"><input type="radio" name="q2" value="sj" /> 세부 일정표와 체크리스트를 만든다</label>
+            <label class="option"><input type="radio" name="q2" value="sp" /> 계획보다는 그때그때 상황에 맞춰 움직인다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">3. 헷갈리는 개념이 있을 때?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q3" value="nt" required /> 스스로 논리적으로 재구성해본다</label>
+            <label class="option"><input type="radio" name="q3" value="nf" /> 친구에게 설명하거나 이야기 나누며 이해한다</label>
+            <label class="option"><input type="radio" name="q3" value="sj" /> 교과서·참고서를 처음부터 다시 정리한다</label>
+            <label class="option"><input type="radio" name="q3" value="sp" /> 문제를 여러 개 풀어보며 감으로 익힌다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">4. 암기가 필요한 내용은 어떻게 외우나요?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q4" value="nt" required /> 개념 간 연결고리를 만들어 이해로 암기한다</label>
+            <label class="option"><input type="radio" name="q4" value="nf" /> 이야기나 이미지로 감성적으로 연결해서 암기한다</label>
+            <label class="option"><input type="radio" name="q4" value="sj" /> 반복해서 여러 번 쓰고 읽으며 암기한다</label>
+            <label class="option"><input type="radio" name="q4" value="sp" /> 손으로 직접 써보거나 몸으로 체득하며 외운다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">5. 그룹 스터디를 한다면?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q5" value="nt" required /> 효율적인 토론과 문제 해결 위주로 진행한다</label>
+            <label class="option"><input type="radio" name="q5" value="nf" /> 서로 응원하고 감정적으로 지지하는 분위기가 좋다</label>
+            <label class="option"><input type="radio" name="q5" value="sj" /> 역할 분담과 일정 관리를 중심으로 한다</label>
+            <label class="option"><input type="radio" name="q5" value="sp" /> 자유롭고 즉흥적으로 진행되는 것이 좋다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">6. 공부가 잘 안 될 때 나는?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q6" value="nt" required /> 비효율의 원인을 분석하고 전략을 바꾼다</label>
+            <label class="option"><input type="radio" name="q6" value="nf" /> 공부하는 이유와 목표를 다시 떠올린다</label>
+            <label class="option"><input type="radio" name="q6" value="sj" /> 정해진 루틴으로 돌아가 다시 시작한다</label>
+            <label class="option"><input type="radio" name="q6" value="sp" /> 잠깐 몸을 움직이거나 다른 활동으로 전환한다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">7. 내가 선호하는 학습 자료는?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q7" value="nt" required /> 원리를 설명하는 심화 자료나 이론서</label>
+            <label class="option"><input type="radio" name="q7" value="nf" /> 스토리텔링이 있는 강의나 에세이</label>
+            <label class="option"><input type="radio" name="q7" value="sj" /> 요약 정리된 참고서와 기출문제집</label>
+            <label class="option"><input type="radio" name="q7" value="sp" /> 실습 문제와 모의고사, 영상 자료</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">8. 시험 직전 마지막 정리는?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q8" value="nt" required /> 핵심 원리와 큰 흐름만 다시 점검한다</label>
+            <label class="option"><input type="radio" name="q8" value="nf" /> 마음을 편하게 하고 기분을 전환한다</label>
+            <label class="option"><input type="radio" name="q8" value="sj" /> 만든 요약노트를 처음부터 끝까지 재확인한다</label>
+            <label class="option"><input type="radio" name="q8" value="sp" /> 실전처럼 모의고사 한 세트를 풀어본다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">9. 목표 점수를 정할 때 나는?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q9" value="nt" required /> 논리적으로 계산된 현실적 목표를 세운다</label>
+            <label class="option"><input type="radio" name="q9" value="nf" /> 스스로에게 의미 있는 목표를 세운다</label>
+            <label class="option"><input type="radio" name="q9" value="sj" /> 작년 기준, 평균 등 명확한 수치로 세운다</label>
+            <label class="option"><input type="radio" name="q9" value="sp" /> 일단 해보고 상황을 봐가며 조정한다</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p class="q-title">10. 나에게 공부란?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q10" value="nt" required /> 문제를 해결하는 지적인 도전</label>
+            <label class="option"><input type="radio" name="q10" value="nf" /> 성장과 의미를 찾아가는 과정</label>
+            <label class="option"><input type="radio" name="q10" value="sj" /> 성실하게 해내야 할 책임</label>
+            <label class="option"><input type="radio" name="q10" value="sp" /> 몸으로 부딪히며 배우는 경험</label>
+          </div>
+        </div>
+
+        <div class="test-actions">
+          <button type="submit" class="btn">결과 확인하기</button>
+          <p class="notice">모든 문항에 답해야 결과를 볼 수 있어요.</p>
+        </div>
+      </form>
+
+      <div id="result" class="result-box">
+        <span class="badge-lg" id="result-badge">NT</span>
+        <h2 id="result-name" style="border:none; padding-left:0;">결과</h2>
+        <p class="subtitle" id="result-types"></p>
+        <p id="result-desc"></p>
+        <p class="notice" id="result-scores"></p>
+        <div class="result-actions">
+          <a id="go-group-btn" href="#" class="btn">그룹 페이지 보러가기</a>
+          <button id="share-btn" type="button" class="btn btn-outline">친구에게 공유하기</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>MBTI 공부법 연구소 · 성향에 맞는 공부법으로 더 즐겁게 공부해요</p>
+      <p>
+        <a href="index.html">홈</a> ·
+        <a href="nt.html">NT</a> ·
+        <a href="nf.html">NF</a> ·
+        <a href="sj.html">SJ</a> ·
+        <a href="sp.html">SP</a> ·
+        <a href="test.html">공부유형 테스트</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/test.js"></script>
+</body>
+</html>
