@@ -68,7 +68,7 @@ function renderResult(result) {
   resultBox.dataset.shareText = `나의 MBTI 공부유형은 [${info.name}]! 너의 공부유형도 확인해봐 → https://mbti-test-seven-pied.vercel.app/test.html`;
 
   if (typeof gtag === "function") {
-    gtag("event", "text_compelete", { group: result.topGroup });
+    gtag("event", "text_complete", { group: result.topGroup });
   }
 
   resultBox.classList.add("show");
